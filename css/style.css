@@ -2095,3 +2095,138 @@ span.error {
 .gsap-reveal-img .reveal-wrap .reveal-content .portfolio-item-content h3 {
   margin-bottom: 10px;
 }
+
+/* Card Css */
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap"); */
+
+
+
+
+.profile-container {
+  position: relative;
+  max-width: 280px;
+  width: 100%;
+  border-radius: 24px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: #191919; */
+  background-color: #0A0F0D;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  margin: 1em;
+}
+
+.profile-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 24px 24px 0 0;
+  height: 36%;
+  width: 100%;
+  background-color: #191919;
+}
+
+.profile-picture {
+  position: relative;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  background-color: #515151;
+  padding: 3px;
+}
+
+.profile-picture .profile-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #faebd7;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-details .profile-name {
+  font-size: 23px;
+  font-weight: 800;
+  margin-top: 20px;
+}
+
+.profile-details .profile-status {
+  margin: 5px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.social-icons .social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #191919;
+  color: #faebd7;
+  border-radius: 50%;
+  height: 34px;
+  width: 34px;
+  margin: 0 7px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.action-buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.action-buttons .action-button {
+  background-color: #0b6ebf;
+  padding: 12px;
+  margin: 0 18px;
+  color: white;
+  border-radius: 25px;
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.action-buttons .action-button:hover {
+  background-color: #094a8f;
+}
+
+.analytics {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.analytics .data {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.analytics .data i {
+  font-size: 24px;
+  color: #1a89de;
+}
+
+.analytics .data .num {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+

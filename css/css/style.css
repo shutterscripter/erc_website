@@ -1104,6 +1104,9 @@ figure.dotted-bg {
   .blog-post-entry .post-meta {
     font-family: "Arimo", sans-serif; }
 
+    
+
+
 .form-outline-style-v1 .form-group {
   position: relative;
   margin-bottom: 50px; }
@@ -1491,3 +1494,7 @@ span.error {
     height: 100%;
     border: 1px solid red;
     background: #000; }
+
+/* Card css */
+
+
