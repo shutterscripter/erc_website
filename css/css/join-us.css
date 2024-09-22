@@ -2005,6 +2005,7 @@ figure.dotted-bg:before {
   color: #b3b3b3;
   text-transform: uppercase;
   font-weight: 900;
+  position: relative;
 }
 
 .form-outline-style-v1 .form-group.focus {
@@ -2689,4 +2690,8 @@ span.error {
   font-weight: 200;
   color: #fff;
   text-align: center;
+}
+.form-control option {
+  background-color: black;
+  color: white;
 }
